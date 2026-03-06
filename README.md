@@ -179,7 +179,7 @@ All annotations (captured PDP data, cart items, order overview, price summary) a
 | TC | Description |
 |---|---|
 | TC008-Read Non-Existent | GET id that never existed → 404 with empty body |
-| TC009-Create Empty Payload | POST with no fields → 201, documents that `title`, `body`, `userId` are absent (permissive API behaviour) |
+| TC009-Create Empty Payload | POST with no fields → 201, documents that `title`, `body`, `userId` are absent |
 
 ---
 
@@ -233,5 +233,8 @@ The GitHub Actions workflow (`.github/workflows/playwright.yml`) runs on:
 | Push / PR to `main` or `master` | Runs on every code change |
 | Daily cron at 23:00 UTC | Scheduled nightly run to catch regressions against live environments |
 | Manual dispatch | Trigger a run anytime from the Actions tab → select workflow → **Run workflow** |
+
+<img width="1915" height="867" alt="image" src="https://github.com/user-attachments/assets/9149a7ef-7330-40ec-9e41-d16149858099" />
+
 
 After each run, the HTML report is uploaded as a build artifact and deployed to GitHub Pages.

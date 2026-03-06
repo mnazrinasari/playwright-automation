@@ -1,0 +1,13 @@
+{
+  "seededPostId": 1,
+  "nonExistentPostId": 99999,
+  "create": {
+    "userId": 1,
+    "title": "Automated Test Post",
+    "body": "This post was created by an automated test to validate the CRUD operations."
+  },
+  "update": {
+    "title": "Updated Automated Test Post",
+    "body": "This post body has been updated by an automated test."
+  }
+}

@@ -1,0 +1,16 @@
+export const CheckoutLocators = {
+  pageTitle:       '.title',
+  firstNameInput:  '[data-test="firstName"]',
+  lastNameInput:   '[data-test="lastName"]',
+  postalCodeInput: '[data-test="postalCode"]',
+  continueButton:  '[data-test="continue"]',
+  finishButton:    '[data-test="finish"]',
+  cartItem:        '.cart_item',
+  inventoryName:   '.inventory_item_name',
+  itemDescription: '.inventory_item_desc',
+  itemPrice:       '.inventory_item_price',
+  itemQuantity:    '.cart_quantity',
+  subtotalLabel:   '.summary_subtotal_label',
+  taxLabel:        '.summary_tax_label',
+  summaryTotal:    '.summary_total_label',
+};

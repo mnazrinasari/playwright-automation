@@ -234,7 +234,6 @@ The GitHub Actions workflow (`.github/workflows/playwright.yml`) runs on:
 | Daily cron at 23:00 UTC | Scheduled nightly run to catch regressions against live environments |
 | Manual dispatch | Trigger a run anytime from the Actions tab → select workflow → **Run workflow** |
 
-<img width="1915" height="867" alt="image" src="https://github.com/user-attachments/assets/9149a7ef-7330-40ec-9e41-d16149858099" />
-
+<img width="1915" height="866" alt="image" src="https://github.com/user-attachments/assets/e3142fa6-cf3d-4876-9644-b02d7c8bc34d" />
 
 After each run, the HTML report is uploaded as a build artifact and deployed to GitHub Pages.

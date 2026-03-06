@@ -82,10 +82,10 @@ npx playwright install chromium
 
 ```bash
 # Run all tests (headless)
-npm test
+npx playwright test
 
 # Run with browser visible
-npm run test --headed
+npx playwright test --headed
 
 # Run UI tests only
 npx playwright test tests/ui

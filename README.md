@@ -220,7 +220,7 @@ Screenshots, videos, and traces are captured automatically on failure.
 
 The latest test report is published automatically to GitHub Pages after every CI run:
 
-**https://mnazrinasari.github.io/playwright-automation-assessment/**
+**https://mnazrinasari.github.io/playwright-automation/**
 
 ---
 
